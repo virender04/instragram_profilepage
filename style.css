@@ -1,0 +1,134 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+.main {
+    height: 100vh;
+}
+
+.header {
+    /* background-color: red; */
+    height: 10%;
+    margin: 0 15% 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile {
+    border-top: 1.5px rgb(85, 85, 85) solid;
+    height: 27%;
+    /* background-color: chocolate; */
+    margin: 0 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    /* background-color: darkmagenta; */
+    height: 50vh;
+    margin: 0 15% 0 15%;
+    border-top: 1.5px rgb(85, 85, 85) solid;
+    display: flex;
+    justify-content: center;
+}
+.content p {
+    margin-top: 100px;
+    font-size: 15px;
+}
+.igsign {
+    margin-top: 10px;
+    height: 80%;
+}
+.regis {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    /* background-color: blueviolet; */
+
+}
+.login {
+    background-color: #178dfc;
+    height: 30px;
+    width: 75px;
+    color: white;
+    font-weight: 500;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    margin-left: 10px;
+    color: #178dfc;
+    font-weight: 550;
+
+}
+
+
+.igdp {
+    height: 150px;
+    width: 150px;
+    margin-left: 8%;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+.details {
+    /* background-color: yellow; */
+    height: 90%;
+    width: 50%;
+    margin-left: 10%;
+
+}
+.namebuttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    /* background-color: hotpink; */
+    font-weight: 500;
+}
+.username {
+    margin-top: 7px;
+}
+
+.namebuttonsformargin {
+    margin-left: 30px;
+}
+.followmsg {
+    height: 10px;
+    background-color: #d4d0cf;
+    height: 30px;
+    width: 92px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+}
+
+.numbersf {
+    margin-top: 20px;
+    display: flex;
+    /* background-color: darkcyan; */
+
+}
+.numbersf a {
+    text-decoration: none;
+}
+.anchorabc {
+    margin-left: 25px;
+}
+.namebio {
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.footer {
+    height: 10%;
+    /* background-color: yellow; */
+    margin: 0 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(78, 78, 78);
+}
+.footer span {
+    margin-left: 9px;
+    font-size: 14px;
+}
